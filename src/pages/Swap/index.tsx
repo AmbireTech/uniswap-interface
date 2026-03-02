@@ -120,7 +120,7 @@ export default function DeprecatedSwapPage() {
 
           <Title>The web wallet has been discontinued</Title>
 
-          <Subtitle>Ambire now lives in your browser as an extension. Same address, more power.</Subtitle>
+          <Subtitle>Ambire now lives in your browser as an extension. More features, more power.</Subtitle>
           <CTAButton
             href="https://chromewebstore.google.com/detail/ambire-web3-wallet/ehgjhhccekdedpbkifaojjaefeohnoea"
             target="_blank"
