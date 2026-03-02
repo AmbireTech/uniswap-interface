@@ -14,6 +14,8 @@ const PageWrapper = styled.div`
   justify-content: center;
   // min-height: calc(100vh - 72px);
   padding: 10rem 16px;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
 `
 
 const Card = styled.div`
@@ -51,7 +53,6 @@ const BrandName = styled.span`
   font-weight: 700;
   color: #fff;
   letter-spacing: -0.01em;
-  font-family: -apple-system, 'Segoe UI', sans-serif;
 `
 
 const Title = styled.h1`
@@ -61,7 +62,6 @@ const Title = styled.h1`
   letter-spacing: -0.02em;
   margin: 0 0 8px;
   line-height: 1.25;
-  font-family: -apple-system, 'Segoe UI', sans-serif;
 `
 
 const Subtitle = styled.p`
@@ -70,7 +70,6 @@ const Subtitle = styled.p`
   color: rgba(255, 255, 255, 0.45);
   margin: 0 0 22px;
   max-width: 400px;
-  font-family: -apple-system, 'Segoe UI', sans-serif;
 `
 
 const CTAButton = styled.a`
@@ -86,7 +85,6 @@ const CTAButton = styled.a`
   font-size: 14px;
   font-weight: 700;
   letter-spacing: -0.01em;
-  font-family: -apple-system, 'Segoe UI', sans-serif;
   transition: opacity 0.15s ease, transform 0.15s ease;
 
   &:hover {
@@ -104,7 +102,6 @@ const HelpLink = styled.a`
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.28);
   text-decoration: none;
-  font-family: -apple-system, 'Segoe UI', sans-serif;
 
   &:hover {
     color: rgba(255, 255, 255, 0.55);
